@@ -1,0 +1,6 @@
+<div class="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-4">
+  @for( item of listadoGifs(); track item){
+
+  <gifs-list-item [imageUrl]="item" />
+  }
+</div>
